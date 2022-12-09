@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MBS-USER-MICROSERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/MBS-AUTH-MICROSERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/MBS-TRANSACTION-MICROSERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/MBC-CONVERSION-MICROSERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/MBS-EUREKA-SERVER/pom.xml" />
+        <option value="$PROJECT_DIR$/MBS-API-GATEWAY/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
