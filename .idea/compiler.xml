@@ -16,7 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MBC-CONVERSION-MICROSERVICE" target="17" />
-      <module name="MBS-API-GATEWAY" target="1.5" />
+      <module name="MBS-API-GATEWAY" target="17" />
       <module name="MBS-AUTH-MICROSERVICE" target="17" />
       <module name="MBS-EUREKA-SERVER" target="17" />
       <module name="MBS-TRANSACTION-MICROSERVICE" target="17" />
@@ -26,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MBC-CONVERSION-MICROSERVICE" options="-parameters" />
+      <module name="MBS-API-GATEWAY" options="-parameters" />
       <module name="MBS-AUTH-MICROSERVICE" options="-parameters" />
       <module name="MBS-EUREKA-SERVER" options="-parameters" />
       <module name="MBS-TRANSACTION-MICROSERVICE" options="-parameters" />
