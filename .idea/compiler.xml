@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MBS-ACCOUNT-MICROSERVICE" />
+        <module name="MBS-API-GATEWAY" />
+        <module name="MBS-EUREKA-SERVER" />
+        <module name="MBS-TRANSACTION-MICROSERVICE" />
+        <module name="MBC-CONVERSION-MICROSERVICE" />
+        <module name="MBS-AUTH-MICROSERVICE" />
+        <module name="MBS-USER-MICROSERVICE" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MBC-CONVERSION-MICROSERVICE" target="11" />
+      <module name="MBS-ACCOUNT-MICROSERVICE" target="11" />
+      <module name="MBS-API-GATEWAY" target="11" />
+      <module name="MBS-AUTH-MICROSERVICE" target="11" />
+      <module name="MBS-EUREKA-SERVER" target="11" />
+      <module name="MBS-TRANSACTION-MICROSERVICE" target="11" />
+      <module name="MBS-USER-MICROSERVICE" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MBC-CONVERSION-MICROSERVICE" options="-parameters" />
+      <module name="MBS-ACCOUNT-MICROSERVICE" options="-parameters" />
+      <module name="MBS-API-GATEWAY" options="-parameters" />
+      <module name="MBS-AUTH-MICROSERVICE" options="-parameters" />
+      <module name="MBS-EUREKA-SERVER" options="-parameters" />
+      <module name="MBS-TRANSACTION-MICROSERVICE" options="-parameters" />
+      <module name="MBS-USER-MICROSERVICE" options="-parameters" />
+    </option>
+  </component>
+</project>
