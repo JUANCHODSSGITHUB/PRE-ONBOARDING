@@ -19,7 +19,7 @@
       <module name="MBS-API-GATEWAY" target="17" />
       <module name="MBS-AUTH-MICROSERVICE" target="17" />
       <module name="MBS-EUREKA-SERVER" target="17" />
-      <module name="MBS-TRANSACTION-MICROSERVICE" target="17" />
+      <module name="MBS-TRANSACTION-MICROSERVICE" target="11" />
       <module name="MBS-USER-MICROSERVICE" target="17" />
     </bytecodeTargetLevel>
   </component>
