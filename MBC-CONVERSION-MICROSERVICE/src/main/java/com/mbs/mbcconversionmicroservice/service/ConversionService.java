@@ -1,5 +1,7 @@
 package com.mbs.mbcconversionmicroservice.service;
 
+import org.bson.types.Decimal128;
+
 public interface ConversionService {
-    String convert(String fromCurrency, String toCurrency, Double amount);
+    Decimal128 convert(String fromCurrency, String toCurrency, Double amount);
 }
